@@ -10,12 +10,12 @@ PASS src/App.test.tsx
 ----------|---------|----------|---------|---------|-------------------
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
- App.tsx  |     100 |      100 |     100 |     100 |                   
+All files |      50 |      100 |      50 |      50 |                   
+ App.tsx  |      50 |      100 |      50 |      50 | 40                
 ----------|---------|----------|---------|---------|-------------------
 
 Test Suites: 2 passed, 2 total
 Tests:       2 passed, 2 total
 Snapshots:   0 total
-Time:        1.621 s
+Time:        2.151 s
 Ran all test suites.
