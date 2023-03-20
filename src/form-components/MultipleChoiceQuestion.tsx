@@ -9,7 +9,7 @@ export function MultipleChoiceQuestion({
     options,
     expectedAnswer
 }: MCQProps): JSX.Element {
-    const [selected, setSelected] = useState<string>("");
+    const [selected, setSelected] = useState<string>(options[0]);
     return (
         <div className="box">
             <Form.Group controlId="MCQ">
