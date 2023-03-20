@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tasks/static/css/main.ef3915da.css",
-    "main.js": "/tasks/static/js/main.d531414e.js",
+    "main.js": "/tasks/static/js/main.f4e7a231.js",
     "static/js/787.4ef7427d.chunk.js": "/tasks/static/js/787.4ef7427d.chunk.js",
     "static/media/bloodmeridian.jpeg": "/tasks/static/media/bloodmeridian.a14430e7133532dd362f.jpeg",
     "index.html": "/tasks/index.html",
     "main.ef3915da.css.map": "/tasks/static/css/main.ef3915da.css.map",
-    "main.d531414e.js.map": "/tasks/static/js/main.d531414e.js.map",
+    "main.f4e7a231.js.map": "/tasks/static/js/main.f4e7a231.js.map",
     "787.4ef7427d.chunk.js.map": "/tasks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef3915da.css",
-    "static/js/main.d531414e.js"
+    "static/js/main.f4e7a231.js"
   ]
 }
