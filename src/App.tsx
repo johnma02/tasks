@@ -15,6 +15,8 @@ import { Counter } from "./components/Counter";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ShoveBox } from "./bad-components/ShoveBox";
+import { StartAttempt } from "./components/StartAttempt";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
 
 function App(): JSX.Element {
     return (
@@ -52,6 +54,8 @@ function App(): JSX.Element {
                     <Col></Col>
                 </Row>
             </Container>
+            <StartAttempt></StartAttempt>
+            <ChooseTeam></ChooseTeam>
             <ChangeType></ChangeType>
             <ColoredBox></ColoredBox>
             <DoubleHalf></DoubleHalf>
