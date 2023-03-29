@@ -7,6 +7,14 @@ import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 import { ChangeColor } from "./form-components/ChangeColor";
+import { CycleHoliday } from "./components/CycleHoliday";
+import { RevealAnswer } from "./components/RevealAnswer";
+import { TwoDice } from "./components/TwoDice";
+import { ChangeType } from "./components/ChangeType";
+import { Counter } from "./components/Counter";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ShoveBox } from "./bad-components/ShoveBox";
 
 function App(): JSX.Element {
     return (
@@ -44,6 +52,14 @@ function App(): JSX.Element {
                     <Col></Col>
                 </Row>
             </Container>
+            <ChangeType></ChangeType>
+            <ColoredBox></ColoredBox>
+            <DoubleHalf></DoubleHalf>
+            <ShoveBox></ShoveBox>
+            <Counter></Counter>
+            <CycleHoliday></CycleHoliday>
+            <RevealAnswer></RevealAnswer>
+            <TwoDice></TwoDice>
             <hr></hr>
             <CheckAnswer expectedAnswer="42"></CheckAnswer>
             <hr></hr>
